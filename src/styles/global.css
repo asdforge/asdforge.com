@@ -1,0 +1,27 @@
+:root {
+  /* dark forge theme */
+  --bg: #0d0d12;
+  --bg-surface: #14141f;
+  --bg-key: #1a1a2e;
+  --text: #dde1eb;
+  --text-muted: rgba(221, 225, 235, 0.55);
+  --text-faint: rgba(221, 225, 235, 0.3);
+  --accent: #4cc9f0;
+  --accent-mid: #4a9edd;
+  --accent-dim: rgba(76, 201, 240, 0.12);
+  --accent-border: rgba(76, 201, 240, 0.4);
+  --key-border: #3a3a5c;
+  --key-shadow: #06060d;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
