@@ -75,7 +75,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
   .wordmark {
     margin: 0;
-    font-size: clamp(2rem, 8vw, 3.6rem);
+    font-size: clamp(2.6rem, 13vw, 3.6rem);
     font-weight: bold;
     letter-spacing: -0.02em;
     display: flex;
@@ -205,6 +205,31 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     flex-wrap: wrap;
     gap: 0.5rem;
     font-size: clamp(0.95rem, 3vw, 1.1rem);
+  }
+
+  @media (max-width: 480px) {
+    main {
+      align-items: flex-start;
+      padding: 3rem 1.5rem 2rem;
+    }
+
+    .container {
+      gap: 2.5rem;
+    }
+
+    .founders {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.35rem;
+    }
+
+    .sep {
+      display: none;
+    }
+
+    .projects-placeholder {
+      font-size: 0.85rem;
+    }
   }
 
   .founder {
